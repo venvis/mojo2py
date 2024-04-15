@@ -1,1 +1,1 @@
-<p text-align="center"> Mojo2py</p>
+<p align="center"> Mojo2py</p>
