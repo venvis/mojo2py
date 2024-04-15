@@ -4,4 +4,15 @@
 <img align="center" src="mojo2py.png" height="70" width="70"></img>
   </div>
 <br>
+  <div class="examples" id="examples" display="flex"  align="center">
 <p>A python package which converts a mojo file (.mojo or .🔥) into a python file.</p>
+  </div>
+  <br>
+## Installation  using pip
+```shell
+pip install mojo2py
+```
+##Or clone the repo
+```shell
+git clone git@github.com:venvis/mojo2py.git
+```
