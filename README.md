@@ -55,7 +55,7 @@ from mojo2py import convert #import the class to convert
 file=convert("example.mojo") # or file=convert("example.🔥")
 file.final() # Call the final method to generate example.py file from example.mojo
 ```
-### A file called example.py , with the same name as the mojo file will be created in the same directory and the code is as follows :
+#### A file called example.py , with the same name as the mojo file will be created in the same directory and the code is as follows :
 
 ```python
 import matplotlib.pyplot as plt 
