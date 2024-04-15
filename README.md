@@ -7,7 +7,7 @@
   <div class="examples" id="examples" display="flex"  align="center">
 <p>A python package which converts a mojo file (.mojo or .🔥) into a python file.</p>
   </div>
-  <br>
+
 ## Installation  using pip
 ```shell
 pip install mojo2py
