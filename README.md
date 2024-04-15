@@ -48,3 +48,38 @@ fn main():
         pass   
 ```        
 
+#### Create a python file , for example (trial.py) : 
+
+```python
+from mojo2py import convert #import the class to convert
+file=convert("example.mojo") # or file=convert("example.🔥")
+file.final() # Call the final method to generate example.py file from example.mojo
+```
+### A file called example.py , with the same name as the mojo file will be created in the same directory and the code is as follows :
+
+```python
+import matplotlib.pyplot as plt 
+import numpy as np 
+ 
+
+def matplotlib(x,y):
+    xval=np.array(x)
+    yval=np.array(y)
+    plt.plot(xval,yval)
+    plt.show()
+
+def show():
+    try:
+        matplotlib([1,2,3,4,5],[6,7,8,9,10])
+    except:
+        print("Error")
+
+def main():
+    try:
+        show()  
+    except:
+        pass                  
+if __name__=="__main__":
+    main()
+```
+
