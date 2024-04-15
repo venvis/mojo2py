@@ -15,6 +15,7 @@
 ### Installation  using pip
 ```shell
 pip install mojo2py
+pip3 install mojo2py
 ```
 ### Or clone the repo
 ```shell
