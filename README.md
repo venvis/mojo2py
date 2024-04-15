@@ -20,3 +20,29 @@ pip install mojo2py
 ```shell
 git clone git@github.com:venvis/mojo2py.git
 ```
+#### Initialize a mojo file , for example :
+```mojo
+
+from python import Python 
+
+def matplotlib(x:PythonObject,y:PythonObject):
+    var plt=Python.import_module("matplotlib.pyplot")
+    var np=Python.import_module("numpy")
+    var xval=np.array(x)
+    var yval=np.array(y)
+    plt.plot(xval,yval)
+    plt.show()
+
+fn show() raises:
+    try:
+        matplotlib([1,2,3,4,5],[6,7,8,9,10])
+    except:
+        print("Error")
+
+fn main():
+    try:
+        show()  
+    except:
+        pass   
+```        
+
