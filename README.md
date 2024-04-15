@@ -8,11 +8,11 @@
 <p>A python package which converts a mojo file (.mojo or .🔥) into a python file.</p>
   </div>
 
-## Installation  using pip
+### Installation  using pip
 ```shell
 pip install mojo2py
 ```
-## Or clone the repo
+### Or clone the repo
 ```shell
 git clone git@github.com:venvis/mojo2py.git
 ```
