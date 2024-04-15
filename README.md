@@ -20,6 +20,8 @@ pip install mojo2py
 ```shell
 git clone git@github.com:venvis/mojo2py.git
 ```
+
+
 #### Initialize a mojo file , for example (example.mojo or example.🔥) :
 ```mojo
 
