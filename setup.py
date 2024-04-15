@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.5'
+VERSION = '1.0'
 DESCRIPTION = 'A python package which converts a mojo file (.mojo or .🔥) into a python file.'
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
