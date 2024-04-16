@@ -1,5 +1,5 @@
   <div class="examples" id="examples" display="flex" flex-direction="row" align="center">
-<h2 align="center"> Mojo2py  <img src="https://img.shields.io/badge/Mojo2py-v1.0-orange"></img></h2>
+<h2 align="center"> Mojo2py  <img src="https://img.shields.io/badge/Mojo2py-v1.3-orange"></img></h2>
    
   </div>
 <br>
@@ -12,7 +12,11 @@
 <p>A python package which converts a mojo file (.mojo or .🔥) into a python file.</p>
   </div>
 
-
+### Install using pip
+```shell
+pip install Mojo2py==1.3
+pip3 install Mojo2py==1.3
+```
 ### Clone the repo
 ```shell
 git clone git@github.com:venvis/mojo2py.git
