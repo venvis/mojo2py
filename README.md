@@ -53,7 +53,7 @@ fn main():
 
 ```python
 from mojo2py import convert #import the class to convert
-file=convert("example.mojo") # or file=convert("example.🔥")
+file=convert("example.mojo") # or file=convert("example.🔥") , if an error comes give full path to the mojo file
 file.final() # Call the final method to generate example.py file from example.mojo
 ```
 #### A file called example.py , with the same name as the mojo file will be created in the same directory and the code is as follows :
