@@ -1,5 +1,5 @@
   <div class="examples" id="examples" display="flex" flex-direction="row" align="center">
-<h2 align="center"> Mojo2py  <img src="https://img.shields.io/badge/Version-1.3-orange"></img></h2>
+<h2 align="center"> Mojo2py  <img src="https://img.shields.io/badge/🔥-Mojo2Py-orange"></img></h2>
    
   </div>
 <br>
