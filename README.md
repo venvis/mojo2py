@@ -14,8 +14,8 @@
 
 ### Install using pip
 ```shell
-pip install Mojo2py==1.3
-pip3 install Mojo2py==1.3
+pip install Mojo2py
+pip3 install Mojo2py
 ```
 ### Clone the repo
 ```shell
